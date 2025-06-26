@@ -21,10 +21,6 @@ spring:
     admin:
       client:
         url: http://localhost:1111
-server:
-  servlet:
-    context-path: /plapp
-  port: 8081
 eureka:
   client:
     register-with-eureka: true
