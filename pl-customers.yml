@@ -30,4 +30,4 @@ management:
       exposure:
         include: '*'
 plappUrl: http://localhost:3333/plapp/customers/getAllCustomers
-getLoanEligibilityUrl: /plrules/getLoanEligibility
+loanEligibilityUrl: /plrules/getLoanEligibility
