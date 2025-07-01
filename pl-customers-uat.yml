@@ -1,0 +1,5 @@
+# Conversion to YAML from Properties formar report
+# Warnings:
+# - The yaml file had comments which are lost in the refactoring!
+plappUrl: http://uatlocalhost:3333/plapp/customers/getAllCustomers
+pl.rules.loans.eligibility.url: http://192.168.1.9:8082/plrules
