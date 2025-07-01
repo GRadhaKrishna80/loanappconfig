@@ -1,33 +1,5 @@
 # Conversion to YAML from Properties formar report
 # Warnings:
 # - The yaml file had comments which are lost in the refactoring!
-spring:
-  application:
-    name: pl-customers
-  datasource:
-    dbcp2:
-      driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/plapp
-    username: root
-    password: root
-  jpa:
-    show-sql: true
-  mvc:
-    view:
-      prefix: /views
-  thymeleaf:
-    suffix: .jsp
-  boot:
-    admin:
-      client:
-        url: http://localhost:1111
-eureka:
-  client:
-    register-with-eureka: true
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
 plappUrl: http://localhost:3333/plapp/customers/getAllCustomers
 loanEligibilityUrl: /plrules/getLoanEligibility
