@@ -2,4 +2,4 @@
 # Warnings:
 # - The yaml file had comments which are lost in the refactoring!
 plappUrl: http://localhost:3333/plapp/customers/getAllCustomers
-pl.rules.loans.eligibility.url: /plrules/getLoanEligibility
+pl.rules.loans.eligibility.url: http://192.168.1.9:8082/pl-rules
